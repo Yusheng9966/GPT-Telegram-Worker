@@ -1,0 +1,20 @@
+{
+  "name": "GPT-Telegram-Worker Development Container",
+  "image": "mcr.microsoft.com/vscode/devcontainers/javascript-node:14",
+  "settings": {
+    "terminal.integrated.shell.linux": "/bin/bash"
+  },
+  "extensions": [
+    "dbaeumer.vscode-eslint",
+    "esbenp.prettier-vscode"
+  ],
+  "postCreateCommand": "npm install",
+  "forwardPorts": [3000],
+  "portsAttributes": {
+    "3000": {
+      "label": "Web Application",
+      "onAutoForward": "openPreview"
+    }
+  },
+  "remoteUser": "vscode"
+}
