@@ -1,6 +1,6 @@
 {
-  "name": "GPT-Telegram-Worker Development Container",
-  "image": "mcr.microsoft.com/vscode/devcontainers/javascript-node:14",
+  "name": "Node.js",
+  "image": "node:14",
   "settings": {
     "terminal.integrated.shell.linux": "/bin/bash"
   },
@@ -16,5 +16,5 @@
       "onAutoForward": "openPreview"
     }
   },
-  "remoteUser": "vscode"
+  "remoteUser": "root"
 }
