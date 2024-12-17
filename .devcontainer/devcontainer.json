@@ -1,6 +1,6 @@
 {
   "name": "Node.js",
-  "image": "node:14",
+  "image": "node:16",
   "settings": {
     "terminal.integrated.shell.linux": "/bin/bash"
   },
